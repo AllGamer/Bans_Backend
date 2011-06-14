@@ -37,7 +37,7 @@ class Ban(models.Model):
     def __unicode__(self):
         return self.username
     def was_pardoned(self):
-        if Pardon.objects.filter(pardoned_name=F(Ban.username))!=None:
+        if Pardon.ban_id==None:
             return 1==3
         else:
             return 1==1

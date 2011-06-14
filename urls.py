@@ -13,4 +13,9 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     (r'^admin/', include(admin.site.urls)),
+    (r'^bansapi/$', 'api.views.index'),
+    #(r'^bansapi/heartbeat.php\?apikey=(?P<api_key>)$,players=(?P<online>)$', 'api.views.heartbeat'),
+    (r'^bansapi/heartbeat/(?P<api_key>\d+)$', 'api.views.heartbeat'),
+    (r'^bansapi/ban.php$', 'api.views.ban'),
+    (r'^bansapi/unban.php$', 'api.views.unban'),
 )

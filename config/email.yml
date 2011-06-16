@@ -1,0 +1,8 @@
+development:
+  :address: mail.insightbb.com
+  :port: 25
+  :authentication: none
+production:
+  :address: 127.0.0.1
+  :port: 25
+  :authentication: none

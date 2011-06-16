@@ -4,7 +4,7 @@ class CreateServers < ActiveRecord::Migration
       t.string :apikey
       t.string :last_heartbeat
       t.string :known_server_ip
-
+      t.reerences :Account
       t.timestamps
     end
   end

@@ -31,17 +31,17 @@ test:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: ruby-bans_test
+  database: ruby_bans_test
   pool: 5
   username: root
-  password:
+  password: @tlant!s
   socket: /var/run/mysqld/mysqld.sock
 
 production:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: ruby-bans_production
+  database: ruby_bans_production
   pool: 5
   username: root
   password: 

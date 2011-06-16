@@ -1,0 +1,23 @@
+<p>
+  <b>Apikey:</b>
+  <%=h @server.apikey %>
+</p>
+
+<p>
+  <b>Last heartbeat:</b>
+  <%=h @server.last_heartbeat %>
+</p>
+
+<p>
+  <b>Known server ip:</b>
+  <%=h @server.known_server_ip %>
+</p>
+
+<p>
+  <b>Account:</b>
+  <%=h @server.Account %>
+</p>
+
+
+<%= link_to 'Edit', edit_server_path(@server) %> |
+<%= link_to 'Back', servers_path %>

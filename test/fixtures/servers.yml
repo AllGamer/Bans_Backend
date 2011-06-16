@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  apikey: MyString
+  last_heartbeat: MyString
+  known_server_ip: MyString
+  Account: 
+
+two:
+  apikey: MyString
+  last_heartbeat: MyString
+  known_server_ip: MyString
+  Account: 

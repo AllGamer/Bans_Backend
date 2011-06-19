@@ -1,3 +1,3 @@
 class Server < ActiveRecord::Base
-  belongs_to :Account
+  has_one :User
 end

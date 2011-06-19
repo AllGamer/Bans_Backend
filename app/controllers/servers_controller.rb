@@ -25,7 +25,7 @@ class ServersController < ApplicationController
   # GET /servers/new.xml
   def new
     @server = Server.new
-
+    @Account = Account.all
     respond_to do |format|
       format.html # new.html.erb
       format.xml  { render :xml => @server }

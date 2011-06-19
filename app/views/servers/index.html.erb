@@ -5,7 +5,6 @@
     <th>Apikey</th>
     <th>Last heartbeat</th>
     <th>Known server ip</th>
-    <th>Account</th>
   </tr>
 
 <% @servers.each do |server| %>
@@ -13,7 +12,6 @@
     <td><%=h server.apikey %></td>
     <td><%=h server.last_heartbeat %></td>
     <td><%=h server.known_server_ip %></td>
-    <td><%=h server.Account %></td>
     <td><%= link_to 'Show', server %></td>
     <td><%= link_to 'Edit', edit_server_path(server) %></td>
     <td><%= link_to 'Destroy', server, :confirm => 'Are you sure?', :method => :delete %></td>

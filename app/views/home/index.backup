@@ -1,0 +1,13 @@
+<%= render :partial => "home/header" %>	
+<!-- menu -->	
+<%= render :partial => "menu" %>
+<!-- content-wrap starts here -->
+<%= render :partial => "home/sidebar" %>
+<div id="main">
+<%= render :partial => "posts/sitenews" %>
+</div>
+<!-- content-wrap ends here -->	
+</div>			
+<!--footer starts here-->
+<%= render :partial => "home/footer" %>
+<!-- wrap ends here -->
